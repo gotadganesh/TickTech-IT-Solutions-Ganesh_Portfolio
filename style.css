@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    border-radius: 0%;
+    border: .5rem solid #0996e7;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+
+}
+.navbar .mode{
+    background: #0f0f0f;
+    color: #f7f5f5; 
+}
+header {
+    height: 50px;
+    display:flex;
+    align-items:start;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 5rem;
+    width: 100%;
+} 
+
+.navbar{
+    display: flex; 
+    gap: 2.5em;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+
+}
+
+.left-container .icons{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    row-gap: 2rem; 
+    margin: 1.5rem;
+}
+
+.left-container .icons .fa-brands{
+    color:#161616;
+    font-size: 1.7rem;
+}
+.content{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    
+}
+.left-container .icons{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;*/
+    padding: 1rem 1.5rem;
+    row-gap: 2rem;
+}
+.btn-container button{
+    border: .1rem solid #0996e7;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+    gap: 5rem;
+}
+button:nth-child(1){
+    background: #f1884b;
+    color: #f7f5f5;
+}
+button:nth-child(2){
+    background-color: #161616;
+    color: #f2f5f7;
+    margin-left: 2rem;
+}
+
+.btn-container1 button{
+    border: .1rem solid #0996e7;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: .5s ease;
+    background-color: #51b0f0;
+    color: #f2f5f7;
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+.circle:nth-child(2){
+    background-color: rgb(229, 241, 50);
+    width: 30rem;
+    background-image: url();
+    background-size: 100%;
+    border: 1.5rem solid #deec15;
+    background-image: url("ganeshpic.jpg");
+    
+}
